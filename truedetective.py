@@ -1,6 +1,7 @@
 def is_twodigit_odd(number):
-    pass
+    return len(str(number)) == 2 and number % 2 != 0
 
+# print(is_twodigit_odd(12))
 
 def has_access(user, users_groups, file_owner, writable_by_owner, file_group, writable_by_group, writable_by_others, sudo_mode):
     pass
