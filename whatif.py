@@ -21,7 +21,14 @@ def has_access(
 
 
 def is_leap_year(year):
-    pass
+    if year % 400 == 0:
+        return True
+    elif year % 100 == 0:
+        return False
+    elif year % 4 == 0:
+        return True
+    else:
+        return False
 
 
 def is_sunday(day, weekday_of_first):
@@ -29,6 +36,15 @@ def is_sunday(day, weekday_of_first):
 
 
 def should_bring_umbrella(
+    rains,
+    wind_scale,
+    cloudy,
+    red_sky,
+    strong_flower_smell,
+    spiders_down,
+    lying_cattle,
+    strong_sunshine,
+):
     pass
 
 
